@@ -1,0 +1,6 @@
+header{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.2)),url("../image/work/banner.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size:cover; 
+    color: #fff;
+}
