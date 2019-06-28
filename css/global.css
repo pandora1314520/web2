@@ -1,0 +1,110 @@
+/* ----------css reset start----------*/
+@import url('https://fonts.googleapis.com/css?family=Mali:400,600,700&display=swap');
+
+* {
+    font-family: "Mali", "Microsoft Jhenghei";
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+s h6,
+p,
+ul,
+ol,
+li,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* --clearfix start--*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* --clearfix end--*/
+
+.nopadding {
+    padding: 0 !important;
+}
+
+/* --vertical align middle start--
+     *固定寬會產生bug
+*/
+.vam {
+    font-size: 0;
+}
+
+.vam::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.vam>* {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    float: none !important;
+}
+
+/* --vertical align middle end--*/
+
+
+/* --btn start--*/
+.btn {
+    display: inline-block;
+    padding: 8px 30px;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background: #82def5;
+}
+
+.btn-red {
+    background: #f05353;
+}
+
+.btn-blue:hover {
+    background: #34d0f7;
+}
+
+.btn-red:hover {
+    background: #f12727;
+}
+
+/* --btn end--*/
+
+
+
+/* ----------css reset end----------*/

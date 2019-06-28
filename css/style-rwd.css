@@ -1,0 +1,765 @@
+/* col start*/
+
+/* --Grid system start--*/
+.col-1 {
+    width: calc(100% / 12 *1);
+}
+.col-2 {
+    width: calc(100% / 12 *2);
+}
+.col-3 {
+    width: calc(100% / 12 *3);
+}
+.col-4 {
+    width: calc(100% / 12 *4);
+}
+.col-5 {
+    width: calc(100% / 12 *5);
+}
+.col-6 {
+    width: calc(100% / 12 *6);
+}
+.col-7 {
+    width: calc(100% / 12 *7);
+}
+.col-8 {
+    width: calc(100% / 12 *8);
+}
+.col-9 {
+    width: calc(100% / 12 *9);
+}
+.col-10 {
+    width: calc(100% / 12 *10);
+}
+.col-11 {
+    width: calc(100% / 12 *11);
+}
+.col-12 {
+    width: calc(100% / 12 *12);
+}
+[class^="col"] {
+    float: left;
+    padding: 15px;
+}
+/* --Grid system end--*/
+
+/* ----------共同 start----------*/
+.full-width {
+    width: 100%;
+}
+
+.fixed-width {
+    /* float: left; */
+    width: 100%;
+    margin: auto;
+}
+/* ----------共同 end----------*/
+
+/* ----------nav start----------*/
+nav {
+    /* height: 60px; */
+    background: #558346;
+    line-height: 60px;
+}
+
+nav .logo {
+    /* float: left; */
+}
+
+nav .menu {
+    /* float: left; */
+}
+
+nav .menu li {
+    /* float: left; */
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    /*區塊*/
+    padding: 0 15px;
+    /*區隔*/
+    text-decoration: none;
+}
+
+nav .login {
+    /* float: right; */
+}
+
+/* ----------nav end----------*/
+
+/* ----------header start----------*/
+header {
+    color: #fff;
+    /* height: 500px; */
+    padding: 150px 0;/*修改*/
+    text-align: center;
+    background-image: linear-gradient(rgba(77, 172, 235, 0.2), rgba(77, 172, 235, 0.2)), url("../image/header/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+/* ----------header end----------*/
+
+/* ----------Introduction start----------*/
+#Introduction {
+    padding: 100px 0;
+    background: rgb(205, 255, 176);
+    color: #000;
+    text-align: center;
+}
+
+/* ----------Introduction end----------*/
+
+
+/* ----------work start----------*/
+/* ----------work end----------*/
+
+
+/* ----------advisory start----------*/
+#advisory_top,
+#advisory_bottom {
+    padding: 100px 0;
+}
+
+#advisory_top {
+    background: #a7f78d;
+}
+
+#advisory_bottom {
+    background: #b3715b;
+}
+
+/* ----------advisory end----------*/
+
+
+/* ----------video start----------*/
+#video {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    /*對應桌機設定-如下*/
+    background:url("http://via.placeholder.com/1024x768")no-repeat center center;
+    background-size: cover;
+}
+
+#video h2 {
+    font-size: 3rem;
+}
+
+#video .col-12 {
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+}
+
+#video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /*對應桌機設定-如下*/
+    display: none;
+}
+
+/* ----------video end----------*/
+
+
+/* ----------contact start----------*/
+#contact {
+    padding: 100px 0;
+    background: #7edad5;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;/*手機設定*/
+    padding: 5px;
+    outline: 0;
+    border: 3px solid transparent;
+    border-radius: 3px;
+}
+
+input:focus[type="text"],
+textarea:focus {
+    border-bottom: 3px solid #757373;
+
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* ----------contact end----------*/
+
+
+/* ----------footer start----------*/
+footer {
+    background: #000;
+    color: #fff;
+}
+
+footer .footer-copyright {
+    letter-spacing: 1px;
+    text-align: center;/*手機設定*/
+}
+
+footer .footer-link {
+    text-align: center;/*手機設定*/
+}
+footer .footer-link a{
+    margin: 0 5px;/*手機設定*/
+}
+
+/* ----------footer end----------*/
+/* col end*/
+
+
+
+/* col-md start*/
+@media screen and (min-width:600px){
+/* --Grid system start--*/
+    .col-md-1 {
+        width: calc(100% / 12 *1);
+    }
+
+    .col-md-2 {
+        width: calc(100% / 12 *2);
+    }
+
+    .col-md-3 {
+        width: calc(100% / 12 *3);
+    }
+
+    .col-md-4 {
+        width: calc(100% / 12 *4);
+    }
+
+    .col-md-5 {
+        width: calc(100% / 12 *5);
+    }
+
+    .col-md-6 {
+        width: calc(100% / 12 *6);
+    }
+
+    .col-md-7 {
+        width: calc(100% / 12 *7);
+    }
+
+    .col-md-8 {
+        width: calc(100% / 12 *8);
+    }
+
+    .col-md-9 {
+        width: calc(100% / 12 *9);
+    }
+
+    .col-md-10 {
+        width: calc(100% / 12 *10);
+    }
+
+    .col-md-11 {
+        width: calc(100% / 12 *11);
+    }
+
+    .col-md-12 {
+        width: calc(100% / 12 *12);
+    }
+
+    [class^="col"] {
+        float: left;
+        padding: 15px;
+    }
+
+/* --Grid system end--*/
+/* ----------共同 start----------*/
+    /* .full-width {
+        width: 100%;
+    } */
+
+    /* .fixed-width {
+        width: 100%;平板設定1
+        margin: auto;
+    } */
+
+    /* ----------共同 end----------*/
+
+
+    /* ----------nav start----------*/
+    nav {
+        height: 60px;
+        /* background: #000;
+        line-height: 60px; */
+    }
+
+    nav .logo {
+        float: left;
+    }
+
+    nav .menu {
+        float: left;
+    }
+
+    nav .menu li {
+        float: left;
+        /* list-style: none; */
+
+    }
+
+    /* nav a {
+        color: #fff;
+        display: block;區塊
+        padding: 0 15px;區隔
+        text-decoration: none;
+    } */
+
+    nav .login {
+        float: right;
+    }
+
+    /* ----------nav end----------*/
+
+    /* ----------header start----------*/
+    header {
+        /* color: #fff; */
+        /* height: 500px; */
+        padding: 250px 0;
+        /* text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url("https://source.unsplash.com/random/1600x500");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; */
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    /* ----------header end----------*/
+
+    /* ----------Introduction start----------*/
+    /* #Introduction {
+        padding: 100px 0;
+        background: rgb(236, 221, 154);
+        color: #000;
+        text-align: center;
+    } */
+    /* #Introduction .col-3{
+        width: calc(100% / 12 * 6);平板設定2 2x2排列
+    } */
+
+    /* ----------Introduction end----------*/
+
+
+    /* ----------work start----------*/
+    /* #work .col-2{
+        width: calc(100% / 12 * 4);平板設定3 2x3排列
+    } */
+    /* ----------work end----------*/
+
+
+    /* ----------advisory start----------*/
+    /* #advisory_top,
+    #advisory_bottom {
+        padding: 100px 0;
+    }
+
+    #advisory_top {
+        background: #aff171;
+    }
+
+    #advisory_bottom {
+        background: #eea67c;
+    } */
+
+    /* ----------advisory end----------*/
+
+
+    /* ----------video start----------*/
+    #video {
+        height: 400px;
+        /* position: relative;
+        height: 400px;
+        overflow: hidden;
+        color: #fff;
+        text-align: center; */
+        /*對應手機設定-如下*/
+        background: none;
+    }
+
+    /* #video h2 {
+        font-size: 3rem;
+    } */
+
+    /* #video .col-12 {
+        position: absolute;
+        z-index: 100;
+        height: 100%;
+    } */
+
+    #video video {
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; */
+        /*對應手機設定-如下*/
+        display: block;
+    }
+
+    /* ----------video end----------*/
+
+
+    /* ----------contact start----------*/
+    /* #contact {
+        padding: 100px 0;
+        background: #a09d9d;
+    }
+
+    label {
+        display: block;
+    }
+
+    input,
+    textarea {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    } */
+
+    /* input[type="text"],
+    textarea {
+        width: 100%;平板設定4
+        padding: 5px;
+        outline: 0;
+        border: 3px solid transparent;
+        border-radius: 3px;
+    }
+
+    input:focus[type="text"],
+    textarea:focus {
+        border-bottom: 3px solid #757373;
+
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+    } */
+
+    /* ----------contact end----------*/
+
+
+    /* ----------footer start----------*/
+    /* footer {
+        background: #000;
+        color: #fff;
+    } */
+
+    footer .footer-copyright {
+        /* letter-spacing: 1px; */
+        text-align: left;/*桌機設定*/
+    }
+
+    footer .footer-link {
+        text-align: right;
+    }
+    /* footer .footer-link a{
+        margin: 0 5px;平板設定5
+    } */
+
+    /* ----------footer end----------*/
+}
+/* col-md end*/
+
+
+
+
+
+
+/* col-lg start*/
+@media screen and (min-width:1200px){
+/* --Grid system start--*/
+    .col-lg-1 {
+        width: calc(100% / 12 *1);
+    }
+
+    .col-lg-2 {
+        width: calc(100% / 12 *2);
+    }
+
+    .col-lg-3 {
+        width: calc(100% / 12 *3);
+    }
+
+    .col-lg-4 {
+        width: calc(100% / 12 *4);
+    }
+
+    .col-lg-5 {
+        width: calc(100% / 12 *5);
+    }
+
+    .col-lg-6 {
+        width: calc(100% / 12 *6);
+    }
+
+    .col-lg-7 {
+        width: calc(100% / 12 *7);
+    }
+
+    .col-lg-8 {
+        width: calc(100% / 12 *8);
+    }
+
+    .col-lg-9 {
+        width: calc(100% / 12 *9);
+    }
+
+    .col-lg-10 {
+        width: calc(100% / 12 *10);
+    }
+
+    .col-lg-11 {
+        width: calc(100% / 12 *11);
+    }
+
+    .col-lg-12 {
+        width: calc(100% / 12 *12);
+    }
+
+    [class^="col"] {
+        float: left;
+        padding: 15px;
+    }
+
+/* --Grid system end--*/
+/* ----------共同 start----------*/
+    /* .full-width {
+        width: 100%;
+    } */
+
+    .fixed-width {
+        width: 1200px;
+        /* margin: auto; */
+    }
+
+    /* ----------共同 end----------*/
+
+
+    /* ----------nav start----------*/
+    nav {
+        height: 60px;
+        /* background: #000;
+        line-height: 60px; */
+    }
+
+    nav .logo {
+        float: left;
+    }
+
+    nav .menu {
+        float: left;
+    }
+
+    nav .menu li {
+        float: left;
+        /* list-style: none; */
+
+    }
+
+    /* nav a {
+        color: #fff;
+        display: block;
+        區塊
+        padding: 0 15px;
+        區隔
+        text-decoration: none;
+    } */
+
+    nav .login {
+        float: right;
+    }
+
+    /* ----------nav end----------*/
+
+    /* ----------header start----------*/
+    header {
+        /* color: #fff; */
+        /* height: 500px; */
+        padding: 250px 0;
+        /* text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url("https://source.unsplash.com/random/1600x500");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; */
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    /* ----------header end----------*/
+
+    /* ----------Introduction start----------*/
+    /* #Introduction {
+        padding: 100px 0;
+        background: rgb(236, 221, 154);
+        color: #000;
+        text-align: center;
+    } */
+    /* #Introduction .col-3{
+        width: calc(100% / 12 * 3);對應桌機設定
+    } */
+
+
+    /* ----------Introduction end----------*/
+
+
+    /* ----------work start----------*/
+    /* #work .col-2{
+        width: calc(100% / 12 * 2);對應桌機設定
+    } */
+    /* ----------work end----------*/
+
+
+    /* ----------advisory start----------*/
+    /* #advisory_top,
+    #advisory_bottom {
+        padding: 100px 0;
+    }
+
+    #advisory_top {
+        background: #aff171;
+    }
+
+    #advisory_bottom {
+        background: #eea67c;
+    } */
+
+    /* ----------advisory end----------*/
+
+
+    /* ----------video start----------*/
+    #video {
+        height: 600px;
+        /* position: relative;
+        height: 600px;
+        overflow: hidden;
+        color: #fff;
+        text-align: center; */
+        /*對應手機設定-如下*/
+        background: none;
+    }
+
+    /* #video h2 {
+        font-size: 3rem;
+    }
+
+    #video .col-12 {
+        position: absolute;
+        z-index: 100;
+        height: 100%;
+    } */
+
+    #video video {
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; */
+        /*對應手機設定-如下*/
+        display: block;
+    }
+
+    /* ----------video end----------*/
+
+
+    /* ----------contact start----------*/
+    /* #contact {
+        padding: 100px 0;
+        background: #a09d9d;
+    }
+
+    label {
+        display: block;
+    }
+
+    input,
+    textarea {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    } */
+
+    input[type="text"],
+    textarea {
+        width: 80%;
+        /* padding: 5px;
+        outline: 0;
+        border: 3px solid transparent;
+        border-radius: 3px; */
+    }
+
+    /* input:focus[type="text"],
+    textarea:focus {
+        border-bottom: 3px solid #757373;
+
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+    } */
+
+    /* ----------contact end----------*/
+
+
+    /* ----------footer start----------*/
+    /* footer {
+        background: #000;
+        color: #fff;
+    } */
+
+    footer .footer-copyright {
+        /* letter-spacing: 1px; */
+        text-align: left;/*桌機設定*/
+    }
+
+    footer .footer-link {
+        text-align: right;
+    }
+    footer .footer-link a{
+        margin: 0 10px;
+    }
+
+    /* ----------footer end----------*/
+
+}
+/* col-lg end*/
